@@ -21,7 +21,6 @@ export async function getStaticProps() {
   {},{headers:{Authorization:"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYzMxZTdmN2Q0ZjM0ZjY0ZDQ2MjJjY2VhNzlmYzMyNGE3OTljYzM3MGI1MGE1YTc5ZTYyZjA5NTUxNTRlNzUwM2QzNzEzMTc2ODg1ZjM2MzAiLCJpYXQiOjE2NzQ1NDkzNzQuMzM1MzU3LCJuYmYiOjE2NzQ1NDkzNzQuMzM1MzYxLCJleHAiOjE3MDYwODUzNzQuMzMyNjM0LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.eb5dJSFuW8F5Gag0TLBVVecYq5TmjHyVXyGptSb27JW95mCqw_qpN0HTg-RaCdWu98Enk_-UWjlzUYIYuWGXL42uG1u2YfWTgbctFv1CtARHsdHpQVlvK7gGN_TOkCg46Awtrfwnh8kERP-hoE4taVKZUenGXOR3kLa_b_b4JUGlfspfgBhj3iaAuZxLeFuP5LLg5wbrJUTwLP6A1Lr0iDpadJYGl8eZjfcEruPt3-07bCYG2fjNuBF5OAxD1lU4Rll-AvWay4viJ7_QUKIOExdFNkrayddpnA8ycaE83zfNr1h81_B8qbuTFvVnIk1mmdWHjLwIJ54SZRU0WTYLUk6gOQoP7jfOEy1Sz9CHY24mkaLl-cPvYBxDfGInmb-vCUM4NMBV2LEh0uY0ReZN34bch-yTgvczXX6Icz-I5E4e8v5QKVeYPjAj4oijSUzc-iFzPXxqS4hMdawEqOcUNcTek-VyBNTfPOCh_ueXxh8Je99XefaEIcEYBMAEZuo8UMdGT_tK3Kopb8qsQMqeURrmLS-UywPrHaf30ucagJybuLliOceuVLsBTGYWG0O8VBNtNZiQDt2OVI05M7K1aQzIBtCDOFrnvkJQyK1KhK3sezV-16S9jK9RjE1wcFOsZ5weOwO53z4sew_dE839OnvDXE2F4Eo451loPCwafgw"} })
   
     let newArray = []
-    console.log(res.data.data[0],"res")
     res.data.data.map((data,index)=>{
       let dataObject = {
         id:index,
@@ -34,7 +33,7 @@ export async function getStaticProps() {
       } 
      newArray.push(dataObject)
     })
-    console.log(newArray,"new")
+  
  
   return {
     props: {
