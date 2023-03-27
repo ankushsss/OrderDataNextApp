@@ -53,7 +53,8 @@ import axios from 'axios'
 // ** Styled Components
 import DatePickerWrapper from 'src/@core/styles/libs/react-datepicker'
 import { Button } from '@mui/material'
-import ProgressCircularCustomization from './ProgressCircularCustomization'
+
+// import ProgressCircularCustomization from '../../../views/apps/invoice/list/ProgressCircularCustomization'
 
 // ** Styled components
 const LinkStyled = styled(Link)(({ theme }) => ({
@@ -303,7 +304,7 @@ const InvoiceList = () => {
           <OptionsMenu
             iconProps={{ fontSize: 20 }}
             iconButtonProps={{ size: 'small' }}
-            options={[{ text: 'Download' }, { text: 'Edit', href: `/invoice/edit/${row.id}` }, { text: 'Duplicate' }]}
+            options={[{ text: 'Download' }, { text: 'Edit', href: `/` }, { text: 'Duplicate' }]}
           />
         </Box>
       )
