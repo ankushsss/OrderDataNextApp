@@ -6,7 +6,7 @@
  */
 const themeConfig = {
   // ** Layout Configs
-  templateName: 'Sneat' /* App Name */,
+  templateName: 'Hariss' /* App Name */,
   layout: 'vertical' /* vertical | horizontal */,
   mode: 'light' /* light | dark | semi-dark /*! Note: semi-dark value will only work for Vertical Layout */,
   direction: 'ltr' /* ltr | rtl */,
@@ -34,6 +34,7 @@ const themeConfig = {
   responsiveFontSizes: true /* true | false */,
   disableRipple: true /* true | false */,
   disableCustomizer: true /* true | false */,
+  themeColor: 'error',
   toastPosition: 'top-right' /* top-left | top-center | top-right | bottom-left | bottom-center | bottom-right */
 }
 

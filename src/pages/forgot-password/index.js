@@ -105,7 +105,7 @@ const ForgotPassword = () => {
                 fontSize: '1.75rem !important'
               }}
             >
-              {themeConfig.templateName}
+              aj
             </Typography>
           </Box>
           <Typography variant='h6' sx={{ mb: 1.5 }}>

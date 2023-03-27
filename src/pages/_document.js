@@ -21,8 +21,8 @@ class CustomDocument extends Document {
             rel='stylesheet'
             href='https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap'
           />
-          <link rel='apple-touch-icon' sizes='180x180' href='/images/apple-touch-icon.png' />
-          <link rel='shortcut icon' href='/images/favicon.ico' />
+          <link rel='apple-touch-icon' sizes='180x180' href='https://osa.harissint.com/images/img.jpg' />
+          <link rel='shortcut icon' href='https://osa.harissint.com/images/img.jpg' />
         </Head>
         <body>
           <Main />

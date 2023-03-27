@@ -122,38 +122,38 @@ const UserDropdown = props => {
           </Box>
         </Box>
         <Divider sx={{ mt: '0 !important' }} />
-        <MenuItem sx={{ p: 0 }} onClick={() => handleDropdownClose()}>
+        <MenuItem sx={{ p: 0 }} onClick={() => handleDropdownClose('/pages/user-profile/profile')}>
           <Box sx={styles}>
             <Icon icon='bx:user' />
             Profile
           </Box>
         </MenuItem>
-        <MenuItem sx={{ p: 0 }} onClick={() => handleDropdownClose()}>
+        <MenuItem sx={{ p: 0 }} onClick={() => handleDropdownClose('/apps/email')}>
           <Box sx={styles}>
             <Icon icon='bx:envelope' />
             Inbox
           </Box>
         </MenuItem>
-        <MenuItem sx={{ p: 0 }} onClick={() => handleDropdownClose()}>
+        <MenuItem sx={{ p: 0 }} onClick={() => handleDropdownClose('/apps/chat')}>
           <Box sx={styles}>
             <Icon icon='bx:message' />
             Chat
           </Box>
         </MenuItem>
         <Divider sx={{ my: theme => `${theme.spacing(2)} !important` }} />
-        <MenuItem sx={{ p: 0 }} onClick={() => handleDropdownClose()}>
+        <MenuItem sx={{ p: 0 }} onClick={() => handleDropdownClose('/pages/help-center')}>
           <Box sx={styles}>
             <Icon icon='bx:cog' />
             Settings
           </Box>
         </MenuItem>
-        <MenuItem sx={{ p: 0 }} onClick={() => handleDropdownClose()}>
+        <MenuItem sx={{ p: 0 }} onClick={() => handleDropdownClose('/pages/pricing')}>
           <Box sx={styles}>
             <Icon icon='bx:dollar' />
             Pricing
           </Box>
         </MenuItem>
-        <MenuItem sx={{ p: 0 }} onClick={() => handleDropdownClose()}>
+        <MenuItem sx={{ p: 0 }} onClick={() => handleDropdownClose('/pages/faq')}>
           <Box sx={styles}>
             <Icon icon='bx:help-circle' />
             FAQ
